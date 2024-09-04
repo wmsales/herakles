@@ -2,8 +2,10 @@
     "name": "wmsales/aquilles",
     "description": "Un mini-framework PHP, liviano y fácil de usar",
     "version": "1.0",
+    "type": "framework",
     "require": {
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
@@ -16,5 +18,8 @@
     },
     "scripts": {
         "test": "phpunit --bootstrap vendor/autoload.php tests"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "license": "MIT"
 }
