@@ -13,6 +13,7 @@ Ahora, durante la instalación de Aquilles, puedes configurar las variables del 
 
 ## Capturas
 
+![App Screenshot](https://cdn.nextware.com.gt/aquilles/Aquilles_Screen.png)
 ![App Screenshot](https://cdn.nextware.com.gt/aquilles/AquillesOS.gif)
 
 
