@@ -15,16 +15,16 @@ class Database
     {
         if (getenv('APP_DEV')) {
             // Local
-            $this->server = getenv('DB_HOST_DEV');
-            $this->username = getenv('DB_USER_DEV');
-            $this->password = getenv('DB_PASS_DEV');
-            $this->dbname = getenv('DB_NAME_DEV');
+            $this->server = $_ENV['DB_HOST_DEV'];
+            $this->username = $_ENV['DB_USER_DEV'];
+            $this->password = $_ENV['DB_PASS_DEV'];
+            $this->dbname = $_ENV['DB_NAME_DEV'];
         } else {
             // Production
-            $this->server = getenv('DB_HOST_PROD');
-            $this->username = getenv('DB_USER_PROD');
-            $this->password = getenv('DB_PASS_PROD');
-            $this->dbname = getenv('DB_NAME_PROD');
+            $this->server = $_ENV['DB_HOST_PROD'];
+            $this->username = $_ENV['DB_USER_PROD'];
+            $this->password = $_ENV['DB_PASS_PROD'];
+            $this->dbname = $_ENV['DB_NAME_PROD'];
         }
 
         try {
