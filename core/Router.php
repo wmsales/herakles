@@ -12,6 +12,12 @@ class Router
         $this->routes['GET'][$uri] = $controller;
     }
 
+    public function post($uri, $controller)
+    {
+        $uri = trim($uri, '/');
+        $this->routes['POST'][$uri] = $controller;
+    }
+
     public function handleRequest($uri)
     {
         $method = $_SERVER['REQUEST_METHOD'];

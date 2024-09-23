@@ -6,6 +6,15 @@ Aquilles es un mini-framework PHP liviano, práctico y listo para ser implementa
 El propósito de este proyecto es facilitar a los desarrolladores el inicio de proyectos basados en el patrón MVC. Aquilles proporciona una base sólida que permite comenzar rápidamente y desarrollar soluciones innovadoras con eficiencia y agilidad.
 
 
+## Instalación
+
+Ahora, durante la instalación de Aquilles, puedes configurar las variables del archivo .env a través de una interfaz gráfica. Esto simplifica aún más el proceso de configuración, sin embargo puedes hacerlo manualmente si lo deseas.
+
+
+## Capturas
+
+![App Screenshot](https://cdn.nextware.com.gt/aquilles/AquillesOS.gif)
+
 
 
 ## Instalación
@@ -52,4 +61,3 @@ Puedes compartir este proyecto y usarlo según tus necesidades. Si aprecias el t
 ## Licenciamiento
 
 Este proyecto es de código abierto [MIT](https://choosealicense.com/licenses/mit/) puedes agradecernos por email o colocarnos en los créditos para seguir creciendo.
-
