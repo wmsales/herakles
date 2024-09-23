@@ -9,7 +9,7 @@
 
 
     <div class="text-center">
-        <p><span class="cinzel text-white">Aquilles</span></p>
+        <p><span class="cinzel text-white">Herakles</span></p>
         <p class="fs-6 text-white">Micro-Framework para PHP</p>
         <?php if (isset($success)) {
         ?>

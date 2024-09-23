@@ -3,7 +3,7 @@
 
 <div class="bg-dark w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="text-center">
-        <p><span class="cinzel text-white">Aquilles</span></p>
+        <p><span class="cinzel text-white">Herakles</span></p>
         <p class="fs-6 text-white">Un Framework de PHP basado en MVC</p>
         <p class="fs-6 text-white">El propósito de este proyecto es facilitar a los desarrolladores el inicio de proyectos basados en el patrón MVC. <br>
             Puedes iniciar la configuración de tu proyecto desde un instalador super simple y amigable</p>
